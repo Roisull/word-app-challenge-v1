@@ -54,6 +54,7 @@ class WordFragment : Fragment() {
         // set adapter into recyclerview
         var adapter = wordAdapter
         rvWords.adapter = adapter
+
         adapter.setOnItemClickListener(object : WordAdapter.onItemClickListener{
             override fun onItemClick(position: Int) {
 
